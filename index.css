@@ -29,9 +29,9 @@ body {
     background-image: linear-gradient(to bottom right, #f87692, pink);
     /*background-image: linear-gradient(to bottom right, #f16e5f, #fc97c9);
     /*background-color: #ff99aa; */
-    border: 25px solid white;
+    border: 3vh solid white;
     min-height: 100vh;
-    position: relative;
+    overflow: hidden;
 }
 
 .cover-container {
@@ -39,7 +39,7 @@ body {
 }
 
 .cover-heading {
-    font-size: 220px;
+    font-size: 240px;
 }
 
 .container {
@@ -50,6 +50,10 @@ body {
 /*
  * Header
  */
+.header {
+    min-height: 100vh;
+}
+
 .masthead {
     margin-bottom: 2rem;
 }
@@ -135,4 +139,52 @@ body {
 
 .lead {
     font-size: 16px;
+    padding-top: 5vh;
+}
+
+/*
+.row {
+    border: 1px solid black; 
+} */
+
+.section1 {
+    height: 17vh;
+}
+
+.section2 {
+    height: 80vh;
+}
+
+.section3 {
+    height: 50vh;
+}
+
+/* svg drawing */
+svg {
+    height: 30vh;
+    width: 30vw;
+}
+   
+path {
+     stroke: white;
+     stroke-width: 5;
+}
+   
+.v3 {
+     stroke-dasharray: 3700;
+     stroke-dashoffset: 3700;
+     animation: draw 4s linear infinite;
+}
+   
+@keyframes draw {
+    to {
+       stroke-dashoffset: 0
+    }
+}
+
+#contents {
+    width:100%;
+    position:relative;
+    background-color:yellow;
+    top:100%;
 }
