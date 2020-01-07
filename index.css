@@ -39,7 +39,7 @@ body {
 }
 
 .cover-heading {
-    font-size: 240px;
+    font-size: 30vh;
 }
 
 .container {
@@ -170,7 +170,7 @@ path {
      stroke-width: 5;
 }
    
-.v3 {
+.animation {
      stroke-dasharray: 3700;
      stroke-dashoffset: 3700;
      animation: draw 4s linear infinite;
