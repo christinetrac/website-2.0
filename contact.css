@@ -27,8 +27,6 @@ body {
 
 #big-box {
     background-image: linear-gradient(to bottom right, #f87692, pink);
-    /*background-image: linear-gradient(to bottom right, #f16e5f, #fc97c9);
-    /*background-color: #ff99aa; */
     border: 3vh solid white;
     min-height: 100vh;
     overflow: hidden;
@@ -159,13 +157,57 @@ body {
     height: 50vh;
 }
 
-/* carousel */
-.art {
-    width: 40%;
+/*form*/
+form {
+    width: 50%;
+    color: pink;
+    font-family: 'Alegreya Sans';
 }
 
-img { 
-    width: 50%; 
-    margin: auto; 
-    border: 20px solid white;
+.box {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+  
+.card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+}
+
+.form-group {
+    text-align: left;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+}
+
+form .submit{
+    background: white;
+    color: pink;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+form .submit:hover{
+    cursor: pointer;
+    color: grey;
 }
