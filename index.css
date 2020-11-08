@@ -154,6 +154,15 @@ body {
     height: 50vh;
 }
 
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.svg-container {
+    width: 25vw;
+}
+
 /* svg drawing */
 svg {
     height: 30vh;
