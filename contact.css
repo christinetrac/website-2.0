@@ -159,9 +159,10 @@ body {
 
 /*form*/
 form {
-    width: 70vh;
+    width: 460px;
     color: pink;
     font-family: 'Alegreya Sans';
+    margin-top: 400px;
 }
 
 .box {
@@ -171,6 +172,7 @@ form {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  margin-top: 20px;
 }
 
 .card {

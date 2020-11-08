@@ -161,11 +161,11 @@ body {
 
 /* carousel */
 .art {
-    width: 30vw;
+    width: 25em;
 }
 
 img { 
-    width: 50vw; 
+    width: 50%; 
     margin: auto; 
     border: 20px solid white;
 }

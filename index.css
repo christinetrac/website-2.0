@@ -142,11 +142,6 @@ body {
     padding-top: 5vh;
 }
 
-/*
-.row {
-    border: 1px solid black; 
-} */
-
 .section1 {
     height: 17vh;
 }
@@ -180,10 +175,4 @@ path {
     to {
        stroke-dashoffset: 0
     }
-}
-
-#contents {
-    width:100%;
-    position:relative;
-    top:100%;
 }
