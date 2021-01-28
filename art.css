@@ -142,9 +142,18 @@ body {
     padding-top: 5vh;
 }
 
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 8px;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+}
+
 /*
 .row {
-    border: 1px solid black; 
+    border: 1px solid black;
 } */
 
 .section1 {
@@ -164,8 +173,8 @@ body {
     width: 25em;
 }
 
-img { 
-    width: 50%; 
-    margin: auto; 
+img {
+    width: 50%;
+    margin: auto;
     border: 20px solid white;
 }

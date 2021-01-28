@@ -163,23 +163,32 @@ body {
     width: 25vw;
 }
 
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 8px;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+}
+
 /* svg drawing */
 svg {
     height: 30vh;
     width: 30vw;
 }
-   
+
 path {
      stroke: white;
      stroke-width: 5;
 }
-   
+
 .animation {
      stroke-dasharray: 3700;
      stroke-dashoffset: 3700;
      animation: draw 4s linear infinite;
 }
-   
+
 @keyframes draw {
     to {
        stroke-dashoffset: 0

@@ -27,6 +27,8 @@ body {
 
 #big-box {
     background-image: linear-gradient(to bottom right, #f87692, pink);
+    /*background-image: linear-gradient(to bottom right, #f16e5f, #fc97c9);
+    /*background-color: #ff99aa; */
     border: 3vh solid white;
     min-height: 100vh;
     overflow: hidden;
@@ -140,6 +142,10 @@ body {
     padding-top: 5vh;
 }
 
+.section1 {
+    height: 17vh;
+}
+
 .copyright {
     position: absolute;
     bottom: 0;
@@ -149,48 +155,30 @@ body {
     letter-spacing: 1px;
 }
 
-/*
-.row {
-    border: 1px solid black;
-} */
+/* projects */
 
-.section1 {
-    height: 17vh;
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
 }
 
 .section2 {
-    height: 80vh;
-}
-
-.section3 {
-    height: 50vh;
-}
-
-/*form*/
-form {
-    width: 460px;
-    color: #ff99aa;
-    font-family: 'Alegreya Sans';
-    margin-top: 400px;
-}
-
-.box {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card {
-    margin: 2rem;
-    padding: 10px 30px 30px 30px;
+    margin: 26px;
+    padding: 18px;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 25px;
     overflow: hidden;
     transition: all .2s linear;
+    width: 360px;
+    height: 240px;
 }
 
 .card:hover {
@@ -198,27 +186,107 @@ form {
     transform: translate3D(0, -2px, 0);
 }
 
-.form-group {
-    text-align: left;
-}
-
-::placeholder{
-    color: white;
-    opacity: 1;
-    font-size: 16px;
-}
-
-form .submit{
-    background: white;
+.title {
     color: #ff99aa;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
+    font-family: 'Alegreya Sans';
+    font-size: 24px;
+    position: absolute;
+    align-self: center;
 }
 
-form .submit:hover{
-    cursor: pointer;
-    color: grey;
+.subtitle {
+    color: #8c8c8c;
+    font-family: 'Alegreya Sans';
+    font-size: 10px;
+    position: absolute;
+    letter-spacing: 1px;
+    align-self: center;
+    padding-top: 30px;
+    font-weight: 800;
 }
+
+.icon {
+    font-weight: 700;
+    color: #ff99aa;
+    position: absolute;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+hr.rounded {
+    border-top: 2px solid pink;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.divider {
+    position: absolute;
+    top: 52px;
+    align-self: center;
+}
+
+.date {
+    color: #ff99aa;
+    font-size: 10px;
+    position: absolute;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 60px;
+}
+
+.info {
+    color: #ff99aa;
+    font-size: 10px;
+    position: absolute;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 12px;
+}
+
+.description {
+    color: #8c8c8c;
+    font-family: 'Alegreya Sans';
+    font-size: 13px;
+    position: absolute;
+    text-align: justify;
+    align-self: center;
+    padding-top: 90px;
+    width: 300px;
+}
+
+.moreButton {
+    position: absolute;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 26px;
+    border-radius: 25px;
+    background: pink;
+    border: none;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.moreButton:hover{
+    cursor: pointer;
+    background: #ff99aa;
+    text-decoration: none;
+}
+
+.buttonLabel {
+    font-size: 10px;
+    color: white;
+    font-family: 'Alegreya Sans';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+
