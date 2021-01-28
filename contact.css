@@ -168,10 +168,14 @@ body {
 
 /*form*/
 form {
-    width: 460px;
+    width: 500px;
     color: #ff99aa;
     font-family: 'Alegreya Sans';
     margin-top: 400px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 .box {
@@ -186,11 +190,12 @@ form {
 
 .card {
     margin: 2rem;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 34px 30px 34px;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 25px;
     overflow: hidden;
     transition: all .2s linear;
+    border: none;
 }
 
 .card:hover {
@@ -202,23 +207,50 @@ form {
     text-align: left;
 }
 
-::placeholder{
-    color: white;
-    opacity: 1;
-    font-size: 16px;
+form .form-group input::placeholder{
+    color: darkgrey;
+}
+
+form .form-group textarea::placeholder{
+    color: darkgrey;
+}
+
+form .form-group input {
+    color: #8c8c8c;
+    border-radius: 12px;
+    background: white;
+    border: none;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, .1);
+}
+
+form .form-group textarea{
+    color: #8c8c8c;
+    border-radius: 12px;
+    background: white;
+    border: none;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, .1);
 }
 
 form .submit{
-    background: white;
-    color: #ff99aa;
-    font-size: 18px;
-    font-weight: bold;
+    background: pink;
+    color: white;
+    font-weight: 700;
     text-transform: uppercase;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
+    border-radius: 25px;
+    width: 200px;
+    align-self: center;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
 }
 
 form .submit:hover{
     cursor: pointer;
-    color: grey;
+    background: #ff99aa;
+    text-decoration: none;
+}
+
+i {
+     padding-right: 4px;
 }
