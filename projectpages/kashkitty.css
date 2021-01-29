@@ -26,7 +26,7 @@ body {
 }
 
 #big-box {
-    background-image: linear-gradient(to bottom right, #f87692, pink);
+    background-image: linear-gradient(to bottom right, lightsalmon, #ff99aa);
     /*background-image: linear-gradient(to bottom right, #f16e5f, #fc97c9);
     /*background-color: #ff99aa; */
     border: 3vh solid white;
@@ -154,4 +154,167 @@ body {
     font-size: 8px;
     padding: 12px 30px;
     letter-spacing: 1px;
+}
+
+/* app stuff */
+.wrapper {
+    padding-bottom: 12px;
+}
+
+.gifs {
+    border-radius: 40px;
+    height: 500px;
+    position: absolute;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, .25));
+    transition: all .2s linear;
+    top: 53%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.linkBox {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    left: 12%;
+    bottom: 40%;
+}
+
+.boxLabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.buttons {
+    background: transparent;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100px;
+    align-self: center;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+
+.cat {
+    width: 200px;
+    position: absolute;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, .25));
+    margin-bottom:-50%;
+    bottom:-50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+/* buttons */
+
+.cool,.cool:visited,.cool:hover,.cool:active{
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:relative;
+    transition:0.5s color ease;
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    font-weight: 300;
+}
+
+.cool.before:before,.cool.after:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+}
+.cool.before:before{
+    top:-0.25em;
+}
+.cool.after:after{
+    bottom:-0.25em;
+}
+.cool.before:before,.cool.after:after{
+    height:3px;
+    width:0;
+    background:white;
+}
+
+.cool.before:hover:before,.cool.after:hover:after{
+    width:100%;
+}
+
+.cool.first:after{
+    left:0;
+}
+
+/* small box */
+
+.smallBox {
+    transition:0.5s all ease-in-out;
+    border: white 3px solid;
+    padding:20px;
+}
+
+.smallBox:hover {
+    background-color: salmon;
+}
+
+.box {
+    position: absolute;
+    top: 53%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.about {
+    transition:0.5s all ease-in-out;
+    border: white 3px solid;
+    padding:14px;
+    width: 210px;
+    margin: 10px;
+    height:200px;
+}
+
+.text {
+    text-align: justify;
+    align-self: center;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.myRole {
+    transition:0.5s all ease-in-out;
+    border: white 3px solid;
+    padding:14px;
+    width: 210px;
+    margin: 10px;
+    height:200px;
+}
+
+.info {
+    transition:0.5s all ease-in-out;
+    border: white 3px solid;
+    padding:14px;
+    width: 440px;
+    margin: 10px;
+    height:220px;
+}
+
+.about:hover, .myRole:hover, .info:hover {
+    background-color: salmon;
 }
