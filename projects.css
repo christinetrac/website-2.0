@@ -173,13 +173,13 @@ body {
 
 .card {
     margin: 26px;
-    padding: 18px;
+    padding: 20px;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 25px;
     overflow: hidden;
     transition: all .2s linear;
     width: 360px;
-    height: 240px;
+    height: 215px;
     border: none;
 }
 
@@ -199,7 +199,7 @@ body {
 .subtitle {
     color: #8c8c8c;
     font-family: 'Alegreya Sans';
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
     letter-spacing: 1px;
     align-self: center;
@@ -223,7 +223,7 @@ hr.rounded {
 
 .divider {
     position: absolute;
-    top: 52px;
+    top: 54px;
     align-self: center;
 }
 
@@ -250,7 +250,7 @@ hr.rounded {
 .description {
     color: #8c8c8c;
     font-family: 'Alegreya Sans';
-    font-size: 13px;
+    font-size: 14px;
     position: absolute;
     text-align: justify;
     align-self: center;
@@ -266,7 +266,7 @@ hr.rounded {
     bottom: 0;
     margin-bottom: 20px;
     width: 100px;
-    height: 26px;
+    height: 28px;
     border-radius: 25px;
     background: pink;
     border: none;
