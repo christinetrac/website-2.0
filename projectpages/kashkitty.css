@@ -161,6 +161,14 @@ body {
     padding-bottom: 12px;
 }
 
+.win {
+    position: absolute;
+    top: 4vh;
+    left: 4vh;
+    height: 150px;
+    filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, .1));
+}
+
 .gifs {
     border-radius: 40px;
     height: 500px;
