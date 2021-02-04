@@ -305,6 +305,7 @@ body {
     align-self: center;
     font-size: 13px;
     font-weight: 300;
+    user-select: none;
 }
 
 .myRole {
